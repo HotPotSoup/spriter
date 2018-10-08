@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+}
+
+canvas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    background-color: aqua;
+} 
+
