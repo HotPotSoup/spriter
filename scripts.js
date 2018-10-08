@@ -14,10 +14,10 @@ function drawAnimation() {
         var ctx = canvas[i].getContext('2d');
         var img = new Image();
         img.src = 'sprites/' + i + '.png';
-        canvas[i].width = img.width * 2;
-        canvas[i].height = img.height * 2;
-        spriteWidth = canvas[i].width / 8;
-        spriteHeight = canvas[i].height / 8;
+        canvas[i].width = img.width;
+        canvas[i].height = img.height;
+        spriteWidth = canvas[i].width / 4;
+        spriteHeight = canvas[i].height / 4;
         ctx.clearRect(0, 0, canvas[i].width, canvas[i].height);
         ctx.drawImage(img, srcX, srcY, spriteWidth, spriteHeight,
             0, 0, canvas[i].width, canvas[i].height);
