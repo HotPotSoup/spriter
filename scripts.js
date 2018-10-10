@@ -3,8 +3,8 @@ var srcX = 0;
 var srcY = 0;
 var row = 0;
 var fps = 12;
-var sheetRows = 4;
-var spriteNum = 6;
+var sheetRows = 4; // need to be changed for each sheet
+var spriteNum = 6; // need to be changed for each sheet
 
 function setup() {
     setInterval(drawAnimation, 1000 / fps);
